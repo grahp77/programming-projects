@@ -1,0 +1,29 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     s21_grep
+relocations:
+  - { offset: 0x1A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001170, symSize: 0x27 }
+  - { offset: 0x474, size: 0x8, addend: 0x0, symName: _print_flag_v, symObjAddr: 0x90F, symBinAddr: 0x100001A7F, symSize: 0x1B0 }
+  - { offset: 0x503, size: 0x8, addend: 0x0, symName: _print_flag_o, symObjAddr: 0x824, symBinAddr: 0x100001994, symSize: 0xEB }
+  - { offset: 0x50B, size: 0x8, addend: 0x0, symName: _print_flag_v, symObjAddr: 0x90F, symBinAddr: 0x100001A7F, symSize: 0x1B0 }
+  - { offset: 0x57C, size: 0x8, addend: 0x0, symName: _print_flag_lc, symObjAddr: 0x775, symBinAddr: 0x1000018E5, symSize: 0xAF }
+  - { offset: 0x584, size: 0x8, addend: 0x0, symName: _print_flag_o, symObjAddr: 0x824, symBinAddr: 0x100001994, symSize: 0xEB }
+  - { offset: 0x5C8, size: 0x8, addend: 0x0, symName: _all_processes, symObjAddr: 0x60A, symBinAddr: 0x10000177A, symSize: 0x16B }
+  - { offset: 0x5D0, size: 0x8, addend: 0x0, symName: _print_flag_lc, symObjAddr: 0x775, symBinAddr: 0x1000018E5, symSize: 0xAF }
+  - { offset: 0x684, size: 0x8, addend: 0x0, symName: _compile_regex, symObjAddr: 0x5BD, symBinAddr: 0x10000172D, symSize: 0x4D }
+  - { offset: 0x68C, size: 0x8, addend: 0x0, symName: _all_processes, symObjAddr: 0x60A, symBinAddr: 0x10000177A, symSize: 0x16B }
+  - { offset: 0x6D0, size: 0x8, addend: 0x0, symName: _pattern_definition, symObjAddr: 0x542, symBinAddr: 0x1000016B2, symSize: 0x7B }
+  - { offset: 0x6D8, size: 0x8, addend: 0x0, symName: _compile_regex, symObjAddr: 0x5BD, symBinAddr: 0x10000172D, symSize: 0x4D }
+  - { offset: 0x6FE, size: 0x8, addend: 0x0, symName: _open_file, symObjAddr: 0x4F5, symBinAddr: 0x100001665, symSize: 0x4D }
+  - { offset: 0x706, size: 0x8, addend: 0x0, symName: _pattern_definition, symObjAddr: 0x542, symBinAddr: 0x1000016B2, symSize: 0x7B }
+  - { offset: 0x73B, size: 0x8, addend: 0x0, symName: _open_file_pattern, symObjAddr: 0x359, symBinAddr: 0x1000014C9, symSize: 0x19C }
+  - { offset: 0x743, size: 0x8, addend: 0x0, symName: _open_file, symObjAddr: 0x4F5, symBinAddr: 0x100001665, symSize: 0x4D }
+  - { offset: 0x7D6, size: 0x8, addend: 0x0, symName: _validate_flags, symObjAddr: 0x2E0, symBinAddr: 0x100001450, symSize: 0x79 }
+  - { offset: 0x7DE, size: 0x8, addend: 0x0, symName: _open_file_pattern, symObjAddr: 0x359, symBinAddr: 0x1000014C9, symSize: 0x19C }
+  - { offset: 0x80A, size: 0x8, addend: 0x0, symName: _parcing, symObjAddr: 0xB8, symBinAddr: 0x100001228, symSize: 0x228 }
+  - { offset: 0x812, size: 0x8, addend: 0x0, symName: _validate_flags, symObjAddr: 0x2E0, symBinAddr: 0x100001450, symSize: 0x79 }
+  - { offset: 0x847, size: 0x8, addend: 0x0, symName: _s21_grep, symObjAddr: 0x27, symBinAddr: 0x100001197, symSize: 0x91 }
+  - { offset: 0x84F, size: 0x8, addend: 0x0, symName: _parcing, symObjAddr: 0xB8, symBinAddr: 0x100001228, symSize: 0x228 }
+  - { offset: 0x8AA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001170, symSize: 0x27 }
+  - { offset: 0x8B2, size: 0x8, addend: 0x0, symName: _s21_grep, symObjAddr: 0x27, symBinAddr: 0x100001197, symSize: 0x91 }
+...
